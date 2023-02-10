@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+    .mobile-nav {
+        display: block;
+    }
+    .desctop-navigation nav {
+        display: none;
+    }
+}

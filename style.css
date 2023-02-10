@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 20px 20px;
+}
+.container {
+    position: relative;
+    height: 300px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.mobile-nav {
+    display: none;
+}
+.desctop-navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*---------------------*/
+/* ანუ ტელეფონის რეზოლუციაზე რომ გაცნდება ტექსტი, მაგის დაჭერაზე ჩამოიშლება ნავი რა */
+.hide {
+    display: none;
+}
+.show {
+    display: inline-block;
+}
+/*---------------------*/
+
+.mobile-nav-menu {
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    height: 100%;
+}
